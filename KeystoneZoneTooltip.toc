@@ -1,0 +1,8 @@
+## Interface: 100200
+## Title: KeystoneZoneTooltip
+## Notes: Adds which zone a keystone is in to the tooltip for it.
+## Version: @project-version@
+## Author: ToppleTheNun
+## X-Wago-ID: as3Dfg57
+
+index.lua
