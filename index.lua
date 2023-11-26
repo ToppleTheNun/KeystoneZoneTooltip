@@ -24,7 +24,7 @@ local function GetKeyLevel(parent_string)
 end
 
 local function OnTooltipSetItem(tooltip)
-	name, link = GameTooltip:GetItem()
+	local _, link = GameTooltip:GetItem()
 
 	if (link == nil) then return end
 

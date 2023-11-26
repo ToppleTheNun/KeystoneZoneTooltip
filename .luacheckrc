@@ -2,20 +2,16 @@ std = "lua51"
 max_line_length = false
 codes = true
 
-globals = {
-    EventTrace = {
-        fields = {
-            "LogEvent",
-            "LogEvent_Original"
-        }
-    }
-}
 read_globals = {
+    -- lua
+    "strsplit",
+
     -- WoW (general API)
-    "EventTrace",
-    "CombatLogGetCurrentEventInfo",
-    "GetCurrentCombatTextEventInfo",
+    "GameTooltip",
+    "ItemRefTooltip",
+    "TooltipDataProcessor",
 
     -- WoW (misc)
-    "CreateFrame"
+    "hooksecurefunc",
+    "Enum"
 }
