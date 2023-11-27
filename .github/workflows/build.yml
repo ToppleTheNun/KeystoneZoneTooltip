@@ -9,9 +9,14 @@ on:
     paths-ignore:
       - ".github/**"
 
+permissions: read-all
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout addon
