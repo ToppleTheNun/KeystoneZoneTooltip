@@ -4,14 +4,14 @@ local zone_prefix = "Zone: "
 
 local keystone_zone_mapping = {
 	-- DF S3
-	["168"] = "Gorgrond",
-	["198"] = "Val'sharah",
-	["199"] = "Val'sharah",
-	["244"] = "Zuldazar",
-	["248"] = "Drustvar",
-	["456"] = "Vashj'ir",
-	["463"] = "Thaldrazus",
-	["464"] = "Thaldrazus"
+	["168"] = "Gorgrond", -- The Everbloom
+	["198"] = "Val'sharah", -- Darkheart Thicket
+	["199"] = "Val'sharah", -- Blackrook Hold
+	["244"] = "Zuldazar", -- Atal'dazar
+	["248"] = "Drustvar", -- Waycrest Manor
+	["456"] = "Vashj'ir", -- Throne of the Tides
+	["463"] = "Thaldrazus", -- Dawn of the Infinite: Galakrond's Fall
+	["464"] = "Thaldrazus" -- Dawn of the Infinite: Murozond's Rise
 }
 
 local function GetItemString(parent_string)
